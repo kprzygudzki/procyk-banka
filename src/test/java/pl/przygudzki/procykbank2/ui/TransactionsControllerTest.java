@@ -2,7 +2,7 @@ package pl.przygudzki.procykbank2.ui;
 
 import org.junit.Test;
 import org.mockito.Mockito;
-import pl.przygudzki.procykbank2.api.TransactionsRegistrar;
+import pl.przygudzki.procykbank2.application.TransactionsRegistrar;
 import pl.przygudzki.procykbank2.model.RegisterTransactionCommand;
 
 public class TransactionsControllerTest {

@@ -1,6 +1,6 @@
-package pl.przygudzki.procykbank2.api.implementation;
+package pl.przygudzki.procykbank2.application.implementation;
 
-import pl.przygudzki.procykbank2.api.TransactionsRegistrar;
+import pl.przygudzki.procykbank2.application.TransactionsRegistrar;
 
 public class StandardTransactionRegistrar implements TransactionsRegistrar {
 

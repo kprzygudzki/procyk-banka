@@ -1,4 +1,4 @@
-package pl.przygudzki.procykbank2.api;
+package pl.przygudzki.procykbank2.application;
 
 public interface TransactionsRegistrar {
 
