@@ -6,11 +6,11 @@ import pl.przygudzki.procykbank2.application.TransactionsRegistrar;
 import pl.przygudzki.procykbank2.model.RegisterTransactionCommand;
 
 @RestController
-public class TransactionsController {
+class TransactionsController {
 
 	private final TransactionsRegistrar registrar;
 
-	public TransactionsController(TransactionsRegistrar registrar) {
+	TransactionsController(TransactionsRegistrar registrar) {
 		this.registrar = registrar;
 	}
 

@@ -83,7 +83,7 @@ public class ProcykBankaEndToEndTests {
 		 * Psotnick checks the balance on his own account.
 		 * Psotnick sends a GET request to /account/psotnick endpoint.
 		 */
-		mvc.perform(get("/account/posotnick"))
+		mvc.perform(get("/account/psotnick"))
 				.andExpect(status().isOk())
 				.andExpect(jsonPath("$.balance").value(BigDecimal.valueOf(15.0)));
 

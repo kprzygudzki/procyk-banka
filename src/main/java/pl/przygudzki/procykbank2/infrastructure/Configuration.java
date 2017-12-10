@@ -10,10 +10,11 @@ import pl.przygudzki.procykbank2.application.implementation.StandardTransactionR
 public class Configuration {
 
 	@Bean
-	TransactionsRegistrar transactionsRegistrar() {
+	public TransactionsRegistrar transactionsRegistrar() {
 		return new StandardTransactionRegistrar();
 	}
 
+	@Bean
 	public AccountsManager accountsManager() {
 		return new StandardAccountsManager();
 	}
