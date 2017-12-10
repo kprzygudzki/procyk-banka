@@ -25,22 +25,6 @@ public class ProcykBankaEndToEndTests {
 	@Autowired
 	private MockMvc mvc;
 
-//	@Autowired
-//	private DbCleaner dbCleaner;
-
-//	@Autowired
-//	private ObjectMapper objectMapper;
-
-//	@Before
-//	public void cleanDb() {
-//		dbCleaner.clean();
-//	}
-
-//	@Test
-//	public void transaction() throws Exception {
-//		mvc.perform(post())
-//	}
-
 	@Test
 	public void transactionHandlingTest() throws Exception {
 
@@ -95,7 +79,17 @@ public class ProcykBankaEndToEndTests {
 //
 //		mvc.perform(get("/account/zaargh"))
 //				.andExpect(status().isOk())
-//				.andExpect(jsonPath("$.balance").value(20.0));
+//				.andExpect(jsonPath("$.balance").value(5.0));
+//
+//		mvc.perform(post("/transactions")
+//				.param("who", "psotnick")
+//				.param("amount", "-20")
+//				.contentType(MediaType.APPLICATION_JSON))
+//				.andExpect(status().isOk());
+//
+//		mvc.perform(get("/account/psotnick"))
+//				.andExpect(status().isOk())
+//				.andExpect(jsonPath("$.balance").value(BigDecimal.valueOf(-5.0)));
 
 		fail("Finish the test, you cocky basterd");
 	}

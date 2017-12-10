@@ -9,7 +9,7 @@ import javax.persistence.PersistenceContext;
 class JPATransactionRepository implements TransactionsRepository {
 
 	@PersistenceContext
-	EntityManager entityManager;
+	private EntityManager entityManager;
 
 	@Override
 	public void put(Transaction transaction) {
