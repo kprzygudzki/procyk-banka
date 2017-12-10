@@ -2,7 +2,7 @@ package pl.przygudzki.procykbank2.ui;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.przygudzki.procykbank2.api.BalanceDto;
+import pl.przygudzki.procykbank2.application.BalanceDto;
 
 import java.math.BigDecimal;
 

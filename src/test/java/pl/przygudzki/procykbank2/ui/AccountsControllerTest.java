@@ -2,7 +2,7 @@ package pl.przygudzki.procykbank2.ui;
 
 import org.junit.Before;
 import org.junit.Test;
-import pl.przygudzki.procykbank2.api.BalanceDto;
+import pl.przygudzki.procykbank2.application.BalanceDto;
 
 import java.math.BigDecimal;
 
