@@ -15,8 +15,8 @@ class TransactionsController {
 	}
 
 	@PostMapping("/transactions")
-	void registerTransaction(RegisterTransactionCommand registerTransactionCommand) {
-		registrar.registerTransaction();
+	void registerTransaction(RegisterTransactionCommand command) {
+		registrar.registerTransaction(command);
 	}
 
 }
